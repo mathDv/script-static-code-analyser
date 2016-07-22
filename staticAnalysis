@@ -1,0 +1,29 @@
+#!/bin/bash
+# My script for static analysis
+
+date_formatted=$(date +%d_%m_%y-%H.%M.%S)
+echo "Data do sistema: " $date_formatted
+
+NAME_OUTPUT_FILE_CPP=$date_formatted'CPPCheck'.txt
+NAME_OUTPUT_FILE_RATS=./rats/$date_formatted'RATS'.txt
+NAME_OUTPUT_FILE_SPLINT=./splint/$date_formatted'SPLINT'.txt
+NAME_OUTPUT_FILE_FLAWFINDER=./flawfinder/$date_formatted'FLAWFINDER'.txt
+#=======================================================================
+DIR_FILES='/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src'
+echo "CPPcheck running"
+#habilita toda verificação, com 3 threads (-j)
+cppcheck --enable=all --template="{file},{line},{severity},{id},{message}" --quiet $DIR_FILES 2> $NAME_OUTPUT_FILE_CPP.txt
+echo "CPPcheck end"
+#=======================================================================
+echo "RATS running"
+#rats --warning 1 --quiet $DIR_FILES 2> $NAME_OUTPUT_FILE_RATS
+echo "RATS end"
+#=======================================================================
+echo "SPLINT running"
+splint $NAME_OUTPUT_FILE_SPLINT*.c 2> $NAME_OUTPUT_FILE_SPLINT
+echo "SPLINT end"
+#=======================================================================
+echo "FLAWFINDER running"
+flawfinder --quiet --dataonly -n $NAME_OUTPUT_FILE_SPLINT*.c 2> $NAME_OUTPUT_FILE_FLAWFINDER
+echo "FLAWFINDER end"
+#=======================================================================

@@ -1,0 +1,1 @@
+# script-static-code-analyser

@@ -1,0 +1,386 @@
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,1623,style,variableScope,The scope of the variable 'lListaVaziaAlm' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,1624,style,variableScope,The scope of the variable 'lListaVaziaMsg' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,1625,style,variableScope,The scope of the variable 'lListaVaziaAnterior' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,1626,style,variableScope,The scope of the variable 'lListaVaziaMsgAnterior' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,255,style,variableScope,The scope of the variable 'lerr' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,531,style,variableScope,The scope of the variable 'lerr' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,651,style,variableScope,The scope of the variable 'uIdx' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,653,style,variableScope,The scope of the variable 'lerr' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,824,style,variableScope,The scope of the variable 'bytesCnt' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,825,style,variableScope,The scope of the variable 'totalBytesCnt' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,897,style,unsignedLessThanZero,Checking if unsigned variable 'usBytesRead' is less than zero.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,910,style,unsignedLessThanZero,Checking if unsigned variable 'iter' is less than zero.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,980,style,unreadVariable,Variable 'totalBytesCnt' is assigned a value that is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,829,style,variableScope,The scope of the variable 'thrPutRead' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,830,style,variableScope,The scope of the variable 'timeRead' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,831,style,variableScope,The scope of the variable 'ticksRead' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,834,style,variableScope,The scope of the variable 'thrPutWrite' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,835,style,variableScope,The scope of the variable 'timeWrite' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,79,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,80,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,82,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,86,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,89,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,93,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/debug_file.c,96,performance,redundantAssignment,Variable 'res' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,3956,style,variableScope,The scope of the variable 'aux_posicao_max' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,3956,style,variableScope,The scope of the variable 'aux_posicao_min' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,4024,style,variableScope,The scope of the variable 'lAux_posicao_max' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,4024,style,variableScope,The scope of the variable 'lAux_posicao_min' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,745,style,variableScope,The scope of the variable 'lCountPrintRolaPapel' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,772,style,variableScope,The scope of the variable 'lCountPrintStopPrinter' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Rpm_Lsb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Rpm_Msb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Temp1_Lsb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Temp1_Msb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Temp2_Lsb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Temp2_Msb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'ValorST_Lsb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'ValorST_Msb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Bpm_Lsb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,69,style,variableScope,The scope of the variable 'Bpm_Msb' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,247,style,variableScope,The scope of the variable 'lCountPixelVelocidade_25' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,247,style,variableScope,The scope of the variable 'lCountPixelVelocidade_12_5' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,484,style,duplicateBreak,Consecutive return, break, continue, goto or throw statements are unnecessary.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,250,style,variableScope,The scope of the variable 'lValorGas' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,453,style,variableScope,The scope of the variable 'DataCalibracao' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,453,style,variableScope,The scope of the variable 'DataAtual' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,249,style,unusedVariable,Unused variable: TextNum
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,249,style,unusedVariable,Unused variable: DadoAux
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,383,style,unreadVariable,Variable 'lValorGas' is assigned a value that is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,490,style,unusedVariable,Unused variable: TextNum
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,490,style,unusedVariable,Unused variable: DataCAP
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/fat_mmcsd.c,35,style,variableScope,The scope of the variable 'status' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,840,performance,redundantCopy,Buffer 'dir' is being written before its old content has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1494,performance,redundantCopy,Buffer 'dir' is being written before its old content has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,78,style,variableScope,The scope of the variable 'n' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,146,style,variableScope,The scope of the variable 'wc' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,146,style,variableScope,The scope of the variable 'bc' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,147,style,variableScope,The scope of the variable 'fatsect' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,240,style,variableScope,The scope of the variable 'nxt' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,345,style,variableScope,The scope of the variable 'clust' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,494,style,variableScope,The scope of the variable 'ds' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,552,style,variableScope,The scope of the variable 'c' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,834,style,variableScope,The scope of the variable 'rs' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1063,style,variableScope,The scope of the variable 'tim' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1257,style,variableScope,The scope of the variable 'dir' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1257,style,variableScope,The scope of the variable 'c' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1331,style,variableScope,The scope of the variable 'sect' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1332,style,variableScope,The scope of the variable 'f' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1394,style,variableScope,The scope of the variable 'sdir' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1520,style,variableScope,The scope of the variable 'fn' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/hs_mmcsd_rw.c,244,style,variableScope,The scope of the variable 'timeOut' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/hs_mmcsd_rw.c,386,style,variableScope,The scope of the variable 'pendingIrqs' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/hs_mmcsd_rw.c,390,style,variableScope,The scope of the variable 'Cnt' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/hs_mmcsd_rw.c,437,style,variableScope,The scope of the variable 'evtqueNum' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/hs_mmcsd_rw.c,440,style,variableScope,The scope of the variable 'Cnt' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,783,style,duplicateIf,Duplicate conditions in 'if' and related 'else if'.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,366,style,variableScope,The scope of the variable 'lCountNumComandosEnviar' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,367,style,variableScope,The scope of the variable 'lCountNum' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,844,style,variableScope,The scope of the variable 'gEletro' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1191,style,variableScope,The scope of the variable 'lStatusImpressora' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1357,style,variableScope,The scope of the variable 'lCountNumRelatoriosPendente' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,157,style,unreadVariable,Variable 'countNumRealatorios' is assigned a value that is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,431,style,variableScope,The scope of the variable 'aux' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,431,style,variableScope,The scope of the variable 'aux2' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,431,style,variableScope,The scope of the variable 'aux3' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,431,style,variableScope,The scope of the variable 'aux4' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,431,style,variableScope,The scope of the variable 'aux5' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,433,style,variableScope,The scope of the variable 'lError_Code' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/pmic.c,88,style,variableScope,The scope of the variable 'read_val' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,173,style,variableScope,The scope of the variable 'gOxiModel' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,387,style,unreadVariable,Variable 'gOxiModel' is assigned a value that is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,1157,style,variableScope,The scope of the variable 'cL1' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,1157,style,variableScope,The scope of the variable 'cL2' can be reduced.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/wav.c,68,performance,redundantAssignment,Variable 'milliseconds' is reassigned a value before the old one has been used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,193,style,unusedFunction,The function 'AlterarPressaoInicialPANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5103,style,unusedFunction,The function 'Atualiza_Icone_Bateia' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5128,style,unusedFunction,The function 'Atualiza_Icone_Rede' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,452,style,unusedFunction,The function 'CalcDataCalib' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,248,style,unusedFunction,The function 'CalibraCAP' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,1507,style,unusedFunction,The function 'CmdInit' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cmd.c,1455,style,unusedFunction,The function 'CmdProcessLine' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/codecif.c,247,style,unusedFunction,The function 'CodecRegBitSet' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/codecif.c,228,style,unusedFunction,The function 'CodecRegRead' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5480,style,unusedFunction,The function 'Decrementa_Painel' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/enet.c,246,style,unusedFunction,The function 'EnetErrStatsticsGet' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/enet.c,121,style,unusedFunction,The function 'EnetHttpServerInit' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/enet.c,108,style,unusedFunction,The function 'EnetIfIsUp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/enet.c,95,style,unusedFunction,The function 'EnetIntRegister' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/enet.c,113,style,unusedFunction,The function 'EnetLinkIsUp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,134,style,unusedFunction,The function 'Envia_Comando_Resposta' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,840,style,unusedFunction,The function 'GetAnoLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,740,style,unusedFunction,The function 'GetAnoProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,920,style,unusedFunction,The function 'GetCO2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,910,style,unusedFunction,The function 'GetCO2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,730,style,unusedFunction,The function 'GetDataCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,860,style,unusedFunction,The function 'GetDiaLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,760,style,unusedFunction,The function 'GetDiaProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,537,style,unusedFunction,The function 'GetDiastole1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,477,style,unusedFunction,The function 'GetDiastole1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,507,style,unusedFunction,The function 'GetDiastole2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,447,style,unusedFunction,The function 'GetDiastole2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,800,style,unusedFunction,The function 'GetExtendedStatusAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,710,style,unusedFunction,The function 'GetFilterLineConec' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,427,style,unusedFunction,The function 'GetFiltro60' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,641,style,unusedFunction,The function 'GetHighSensitivity' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,770,style,unusedFunction,The function 'GetHorasCalibrar' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,527,style,unusedFunction,The function 'GetMedia1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,467,style,unusedFunction,The function 'GetMedia1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,497,style,unusedFunction,The function 'GetMedia2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,437,style,unusedFunction,The function 'GetMedia2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,850,style,unusedFunction,The function 'GetMesLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,750,style,unusedFunction,The function 'GetMesProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,631,style,unusedFunction,The function 'GetPerfusionAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,790,style,unusedFunction,The function 'GetPressaoAmbiente' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,780,style,unusedFunction,The function 'GetPressaoAmbienteAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,950,style,unusedFunction,The function 'GetRespiracao' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,547,style,unusedFunction,The function 'GetSistole1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,487,style,unusedFunction,The function 'GetSistole1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,517,style,unusedFunction,The function 'GetSistole2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,457,style,unusedFunction,The function 'GetSistole2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,820,style,unusedFunction,The function 'GetStatusAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,720,style,unusedFunction,The function 'GetStatusDataCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,302,style,unusedFunction,The function 'GetTickms' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,890,style,unusedFunction,The function 'GetUnidade' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,870,style,unusedFunction,The function 'GetVelocidade' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,956,style,unusedFunction,The function 'Get_Atualizar_Display' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,1787,style,unusedFunction,The function 'Get_Contador_Buffer_Curvas' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/desf.c,1039,style,unusedFunction,The function 'Get_Desf_Energia_Armazenada' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,2013,style,unusedFunction,The function 'Get_Eletrodo_Solto_C1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1986,style,unusedFunction,The function 'Get_Eletrodo_Solto_LA' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1995,style,unusedFunction,The function 'Get_Eletrodo_Solto_LL' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1977,style,unusedFunction,The function 'Get_Eletrodo_Solto_RA' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,2004,style,unusedFunction,The function 'Get_Eletrodo_Solto_RL' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/wav.c,134,style,unusedFunction,The function 'Get_Flag_Audio_Andamento' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1643,style,unusedFunction,The function 'Get_Flag_Impressora_Sleep' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,260,style,unusedFunction,The function 'Get_Flag_Inicia_Medida' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,2031,style,unusedFunction,The function 'Get_Flag_Libera_Plotagem' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1429,style,unusedFunction,The function 'Get_Flag_Libera_String_Prt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,969,style,unusedFunction,The function 'Get_Flag_Timer_Iniciado' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,660,style,unusedFunction,The function 'Get_Index_Msgs_Info' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,900,style,unusedFunction,The function 'Get_Modo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5495,style,unusedFunction,The function 'Get_Nivel_Menu' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5505,style,unusedFunction,The function 'Get_Nivel_Menu_Anterior' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5465,style,unusedFunction,The function 'Get_Painel' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5485,style,unusedFunction,The function 'Get_Painel_Anterior' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/desf.c,798,style,unusedFunction,The function 'Get_RXBuffer' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,672,style,unusedFunction,The function 'Get_Total_Msgs_Info' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,974,style,unusedFunction,The function 'Get_bpm_max_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,990,style,unusedFunction,The function 'Get_bpm_min_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,884,style,unusedFunction,The function 'Get_bps_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1134,style,unusedFunction,The function 'Get_choque_indicado_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1338,style,unusedFunction,The function 'Get_count_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,772,style,unusedFunction,The function 'Get_curva1_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,783,style,unusedFunction,The function 'Get_curva2_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,795,style,unusedFunction,The function 'Get_curva3_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,806,style,unusedFunction,The function 'Get_curva4_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,817,style,unusedFunction,The function 'Get_curva5_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,829,style,unusedFunction,The function 'Get_curva6_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,760,style,unusedFunction,The function 'Get_curva_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,611,style,unusedFunction,The function 'Get_diastole_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,723,style,unusedFunction,The function 'Get_diastole_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,739,style,unusedFunction,The function 'Get_diastole_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1038,style,unusedFunction,The function 'Get_filtro_35_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1054,style,unusedFunction,The function 'Get_filtro_60_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1306,style,unusedFunction,The function 'Get_flag_QRS' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1354,style,unusedFunction,The function 'Get_flag_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1086,style,unusedFunction,The function 'Get_frequencia_cardiaca_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1022,style,unusedFunction,The function 'Get_frequencia_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1070,style,unusedFunction,The function 'Get_marcapasso_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,536,style,unusedFunction,The function 'Get_max_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,627,style,unusedFunction,The function 'Get_media_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,755,style,unusedFunction,The function 'Get_media_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,771,style,unusedFunction,The function 'Get_media_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,788,style,unusedFunction,The function 'Get_medida_automatica_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,552,style,unusedFunction,The function 'Get_min_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,868,style,unusedFunction,The function 'Get_packet_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,804,style,unusedFunction,The function 'Get_pressao_inicial_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,659,style,unusedFunction,The function 'Get_pressao_manguito_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,852,style,unusedFunction,The function 'Get_rate_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1290,style,unusedFunction,The function 'Get_resp_detectada_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1194,style,unusedFunction,The function 'Get_respiracao_max_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1210,style,unusedFunction,The function 'Get_respiracao_min_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1005,style,unusedFunction,The function 'Get_resposta_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,568,style,unusedFunction,The function 'Get_resposta_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,942,style,unusedFunction,The function 'Get_sensibilidade_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1258,style,unusedFunction,The function 'Get_sensibilidade_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,520,style,unusedFunction,The function 'Get_sensibilidade_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1500,style,unusedFunction,The function 'Get_sensor_status_flag_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1613,style,unusedFunction,The function 'Get_sensor_status_flag_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,595,style,unusedFunction,The function 'Get_sistole_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,691,style,unusedFunction,The function 'Get_sistole_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,707,style,unusedFunction,The function 'Get_sistole_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1484,style,unusedFunction,The function 'Get_temperatura_anterior_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1597,style,unusedFunction,The function 'Get_temperatura_anterior_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1403,style,unusedFunction,The function 'Get_temperatura_max_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1533,style,unusedFunction,The function 'Get_temperatura_max_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1419,style,unusedFunction,The function 'Get_temperatura_min_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1549,style,unusedFunction,The function 'Get_temperatura_min_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1322,style,unusedFunction,The function 'Get_tempo_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1370,style,unusedFunction,The function 'Get_tendencia_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,504,style,unusedFunction,The function 'Get_velocidade_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/i2c.c,120,style,unusedFunction,The function 'I2CInit' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/i2c.c,149,style,unusedFunction,The function 'I2CIntRegister' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,85,style,unusedFunction,The function 'IBP_Comando_Ligar_Filtro_50HZ' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,97,style,unusedFunction,The function 'IBP_Comando_Ligar_Filtro_60HZ' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,74,style,unusedFunction,The function 'IBP_Comando_Sample_Rate_50' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,41,style,unusedFunction,The function 'IBP_Comando_Zeramento_Canal_1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,63,style,unusedFunction,The function 'IBP_Comando_Zeramento_Canal_1_2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,52,style,unusedFunction,The function 'IBP_Comando_Zeramento_Canal_2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5475,style,unusedFunction,The function 'Incrementa_Painel' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,163,style,unusedFunction,The function 'IniciaMedidaPani' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,189,style,unusedFunction,The function 'InqAmbPressure' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,176,style,unusedFunction,The function 'InqExtendStatus' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,1849,style,unusedFunction,The function 'KeyPress' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cm3wkup_proxy.c,356,style,unusedFunction,The function 'MailBoxInit' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/audio.c,150,style,unusedFunction,The function 'McASPTxIsr' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,347,style,unusedFunction,The function 'ModeCallback' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/alarmes.c,563,style,unusedFunction,The function 'Mostrar_Elementos_Lista' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/PwrMgmnt.c,625,style,unusedFunction,The function 'PowerSaveModeEnter' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/Raster_lcd.c,198,style,unusedFunction,The function 'Raster0EOFIntDisable' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1149,style,unusedFunction,The function 'Request_Status_Print' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/Rtc_fox.c,232,style,unusedFunction,The function 'RtcTimeCalDisplay' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/Rtc_fox.c,126,style,unusedFunction,The function 'RtcTimeCalSet' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,836,style,unusedFunction,The function 'SetAnoLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,736,style,unusedFunction,The function 'SetAnoProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,916,style,unusedFunction,The function 'SetCO2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,906,style,unusedFunction,The function 'SetCO2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,726,style,unusedFunction,The function 'SetDataCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,856,style,unusedFunction,The function 'SetDiaLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,756,style,unusedFunction,The function 'SetDiaProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,533,style,unusedFunction,The function 'SetDiastole1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,473,style,unusedFunction,The function 'SetDiastole1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,503,style,unusedFunction,The function 'SetDiastole2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,443,style,unusedFunction,The function 'SetDiastole2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,796,style,unusedFunction,The function 'SetExtendedStatusAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,706,style,unusedFunction,The function 'SetFilterLineConec' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,423,style,unusedFunction,The function 'SetFiltro60' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,766,style,unusedFunction,The function 'SetHorasCalibrar' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,523,style,unusedFunction,The function 'SetMedia1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,463,style,unusedFunction,The function 'SetMedia1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,493,style,unusedFunction,The function 'SetMedia2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,433,style,unusedFunction,The function 'SetMedia2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,846,style,unusedFunction,The function 'SetMesLastCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,746,style,unusedFunction,The function 'SetMesProxCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,626,style,unusedFunction,The function 'SetPerfusionAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,786,style,unusedFunction,The function 'SetPressaoAmbiente' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,776,style,unusedFunction,The function 'SetPressaoAmbienteAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,946,style,unusedFunction,The function 'SetRespiracao' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,543,style,unusedFunction,The function 'SetSistole1Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,483,style,unusedFunction,The function 'SetSistole1Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,513,style,unusedFunction,The function 'SetSistole2Max' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ibp.c,453,style,unusedFunction,The function 'SetSistole2Min' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,816,style,unusedFunction,The function 'SetStatusAnt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,716,style,unusedFunction,The function 'SetStatusDataCal' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,886,style,unusedFunction,The function 'SetUnidade' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,866,style,unusedFunction,The function 'SetVelocidade' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,1783,style,unusedFunction,The function 'Set_Contador_Buffer_Curvas' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1564,style,unusedFunction,The function 'Set_Contador_Impressora' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,2017,style,unusedFunction,The function 'Set_Eletrodo_Solto_C1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1990,style,unusedFunction,The function 'Set_Eletrodo_Solto_LA' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1999,style,unusedFunction,The function 'Set_Eletrodo_Solto_LL' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1981,style,unusedFunction,The function 'Set_Eletrodo_Solto_RA' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,2008,style,unusedFunction,The function 'Set_Eletrodo_Solto_RL' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/wav.c,143,style,unusedFunction,The function 'Set_Flag_Audio_Andamento' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,250,style,unusedFunction,The function 'Set_Flag_Inicia_Medida' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1422,style,unusedFunction,The function 'Set_Flag_Libera_String_Prt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,965,style,unusedFunction,The function 'Set_Flag_Timer_Iniciado' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,987,style,unusedFunction,The function 'Set_ModoCalibra_Etco2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,904,style,unusedFunction,The function 'Set_Modo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5500,style,unusedFunction,The function 'Set_Nivel_Menu' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5510,style,unusedFunction,The function 'Set_Nivel_Menu_Anterior' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1437,style,unusedFunction,The function 'Set_Numero_derivacoes_Imprimir' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5470,style,unusedFunction,The function 'Set_Painel' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/menu.c,5490,style,unusedFunction,The function 'Set_Painel_Anterior' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,978,style,unusedFunction,The function 'Set_bpm_max_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,994,style,unusedFunction,The function 'Set_bpm_min_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1342,style,unusedFunction,The function 'Set_count_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,776,style,unusedFunction,The function 'Set_curva1_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,787,style,unusedFunction,The function 'Set_curva2_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,799,style,unusedFunction,The function 'Set_curva3_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,810,style,unusedFunction,The function 'Set_curva4_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,821,style,unusedFunction,The function 'Set_curva5_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,833,style,unusedFunction,The function 'Set_curva6_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,764,style,unusedFunction,The function 'Set_curva_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,615,style,unusedFunction,The function 'Set_diastole_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,727,style,unusedFunction,The function 'Set_diastole_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,743,style,unusedFunction,The function 'Set_diastole_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1042,style,unusedFunction,The function 'Set_filtro_35_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1058,style,unusedFunction,The function 'Set_filtro_60_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1358,style,unusedFunction,The function 'Set_flag_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1090,style,unusedFunction,The function 'Set_frequencia_cardiaca_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1026,style,unusedFunction,The function 'Set_frequencia_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,540,style,unusedFunction,The function 'Set_max_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,759,style,unusedFunction,The function 'Set_media_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,775,style,unusedFunction,The function 'Set_media_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,792,style,unusedFunction,The function 'Set_medida_automatica_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,556,style,unusedFunction,The function 'Set_min_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,872,style,unusedFunction,The function 'Set_packet_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,808,style,unusedFunction,The function 'Set_pressao_inicial_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,663,style,unusedFunction,The function 'Set_pressao_manguito_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,856,style,unusedFunction,The function 'Set_rate_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1198,style,unusedFunction,The function 'Set_respiracao_max_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1214,style,unusedFunction,The function 'Set_respiracao_min_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1009,style,unusedFunction,The function 'Set_resposta_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,572,style,unusedFunction,The function 'Set_resposta_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,946,style,unusedFunction,The function 'Set_sensibilidade_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1262,style,unusedFunction,The function 'Set_sensibilidade_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,524,style,unusedFunction,The function 'Set_sensibilidade_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1504,style,unusedFunction,The function 'Set_sensor_status_flagtemp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1617,style,unusedFunction,The function 'Set_sensor_status_flagtemp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,599,style,unusedFunction,The function 'Set_sistole_anterior_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,695,style,unusedFunction,The function 'Set_sistole_maxima_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,711,style,unusedFunction,The function 'Set_sistole_minimo_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,679,style,unusedFunction,The function 'Set_status_PANI' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,962,style,unusedFunction,The function 'Set_status_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1488,style,unusedFunction,The function 'Set_temperatura_anterior_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1601,style,unusedFunction,The function 'Set_temperatura_anterior_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1407,style,unusedFunction,The function 'Set_temperatura_max_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1537,style,unusedFunction,The function 'Set_temperatura_max_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1423,style,unusedFunction,The function 'Set_temperatura_min_temp1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1553,style,unusedFunction,The function 'Set_temperatura_min_temp2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1326,style,unusedFunction,The function 'Set_tempo_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,1374,style,unusedFunction,The function 'Set_tendencia_apneia_resp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/spo2.c,508,style,unusedFunction,The function 'Set_velocidade_spo2' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1139,style,unusedFunction,The function 'Sleep_Mode_Impressora' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoGrlib.c,4107,style,unusedFunction,The function 'SplashScreen' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,481,style,unusedFunction,The function 'StepDisable' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,287,style,unusedFunction,The function 'SysTickIntHandler' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,302,style,unusedFunction,The function 'TouchDisable' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,607,style,unusedFunction,The function 'TouchScreenFIFOFlush' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/uart.c,876,style,unusedFunction,The function 'UARTWriteData' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,434,style,unusedFunction,The function 'USBHCDEvents' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,598,style,unusedFunction,The function 'USBReady' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/etco2.c,489,style,unusedFunction,The function 'VerifCalibracaoCAP' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/impressora.c,1166,style,unusedFunction,The function 'WakeUp_Impressora' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/usb_host_msc.c,276,style,unusedFunction,The function '__error__' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,580,style,unusedFunction,The function 'clearTSFifos' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,550,style,unusedFunction,The function 'configTSWakeup' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/pmic.c,159,style,unusedFunction,The function 'configVddOpVoltage' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,575,style,unusedFunction,The function 'disableTSWakeup' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTouch.c,565,style,unusedFunction,The function 'enableTSWakeup' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1511,style,unusedFunction,The function 'f_chmod' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1548,style,unusedFunction,The function 'f_rename' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ff.c,1291,style,unusedFunction,The function 'f_stat' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,409,style,unusedFunction,The function 'get_TNIBP' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,738,style,unusedFunction,The function 'get_atualiza_num_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,650,style,unusedFunction,The function 'get_gInitEcg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,628,style,unusedFunction,The function 'get_gLiberaInt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,337,style,unusedFunction,The function 'get_gNibpFirstMeasure' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/demoTimer.c,882,style,unusedFunction,The function 'initializeTimer1' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/buffer_circular.c,39,style,unusedFunction,The function 'isEmpty' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/buffer_circular.c,117,style,unusedFunction,The function 'printQueue' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/buffer_circular.c,141,style,unusedFunction,The function 'printQueueAll' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/cm3wkup_proxy.c,218,style,unusedFunction,The function 'readCM3Trace' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/wav.c,49,style,unusedFunction,The function 'seconds_to_time' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/nibp.c,418,style,unusedFunction,The function 'set_TNIBP' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,749,style,unusedFunction,The function 'set_atualiza_num_ecg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,661,style,unusedFunction,The function 'set_gInitEcg' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ecg.c,639,style,unusedFunction,The function 'set_gLiberaInt' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,816,style,unusedFunction,The function 'ulocaltime' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,763,style,unusedFunction,The function 'usnprintf' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,1222,style,unusedFunction,The function 'ustrcasecmp' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,1098,style,unusedFunction,The function 'ustrstr' is never used.
+/mnt/hgfs/projeto_novo_cardiomax/software/cpu/appFox/branch/v5.02.00/src/ustdlib.c,906,style,unusedFunction,The function 'ustrtoul' is never used.
+,,information,missingInclude,Cppcheck cannot find all the include files (use --check-config for details)

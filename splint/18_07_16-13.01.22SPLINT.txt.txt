@@ -1,0 +1,4 @@
+Splint 3.1.2 --- 03 May 2009
+
+Cannot open file: splint/18_07_16-13.01.22SPLINT.txt*.c
+Finished checking --- no code processed
